@@ -128,7 +128,7 @@ const Weather = () => {
         <h1>Weather Forecast</h1>
       </div>
       <div className="search-bar">
-        <input ref={inputRef} type="text" placeholder="Search" />
+        <input ref={inputRef} type="text" placeholder="Enter Your City Name" />
         <img
           src={search_icon}
           alt="Search"
